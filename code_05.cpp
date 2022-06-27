@@ -6,6 +6,10 @@ void fun() {
     std::cout<<"1" << std::endl;
 }
 
+void fun2() {
+    std::cout<<"2" << std::endl;
+}
+
 
 int main() {
     int c; // 用int而不是char来处理EOF
