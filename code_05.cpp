@@ -2,6 +2,10 @@
 #include <cstdlib>
 #include <cstring>
 
+void fun() {
+    std::cout<<"1" << std::endl;
+}
+
 
 int main() {
     int c; // 用int而不是char来处理EOF
@@ -19,7 +23,7 @@ int main() {
     if (ferror(pf))
         puts("I/O error when reading.");
     else if (feof(pf))
-        puts("End of file reached successfully\n");
+        puts("Ends of file reached successfully\n");
 
     return 0;
 }
