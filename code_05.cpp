@@ -6,8 +6,14 @@ void fun() {
     std::cout<<"1" << std::endl;
 }
 
+
 void fun2() {
     std::cout<<"2" << std::endl;
+}
+
+
+void fun3() {
+    std::cout << "3" << std::endl;
 }
 
 
